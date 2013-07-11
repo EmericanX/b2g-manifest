@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
-  <default revision="master"
-           remote="aosp"
-           sync-j="4" />
+  <remote name="aosp" fetch="https://android.googlesource.com/"/>
   <remote name="b2g" fetch="git://github.com/mozilla-b2g/"/>
   <remote name="linaro" fetch="http://android.git.linaro.org/git-ro/"/>
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
-  <remote fetch="git://github.com/" name="gh" />
   <default revision="refs/tags/android-4.0.4_r1.2" remote="linaro" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
