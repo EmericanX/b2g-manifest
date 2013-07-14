@@ -224,8 +224,7 @@
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="gh" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="razrqcom-dev-team/android_hardware_qcom_display" remote="gh" revision="cm-10.1" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="gh" revision="cm-10.1" />  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="gh" revision="cm-10.1" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom" />
